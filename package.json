@@ -1,11 +1,10 @@
 {
-  "name": "schedule",
+  "name": "scheduler",
   "version": "1.0.0",
-  "description": "script to automatically open the blackboard website based on what time it is",
+  "description": "node cron script to open my school course sites zz",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,12 +12,7 @@
   "dependencies": {
     "cli-color": "^2.0.3",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2",
     "node-cron": "^3.0.2",
-    "open": "^8.4.0",
     "shelljs": "^0.8.5"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
   }
 }
