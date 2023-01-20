@@ -1,0 +1,24 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "script to automatically open the blackboard website based on what time it is",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "open": "^8.4.0",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
