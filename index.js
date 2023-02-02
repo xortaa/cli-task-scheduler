@@ -30,7 +30,7 @@ cron.schedule("0 7 * * 4", () => {
 })
 
 cron.schedule("0 12 * * 4", () => {
-  openChromeProfileAndLink(process.env.MISSING)
+  openChromeProfileAndLink(process.env.PATH_FIT)
 })
 
 cron.schedule("0 11 * * 5", () => {
