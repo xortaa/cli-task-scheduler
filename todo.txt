@@ -1,0 +1,4 @@
+add a question. do you want your settings to be saved 
+if Y 
+then save it into a text file 
+that would then be accessed 
