@@ -1,14 +1,14 @@
 {
-  "name": "scheduler",
-  "version": "1.0.0",
-  "description": "node cron script to open my school course sites zz",
+  "name": "node-cli-scheduler",
+  "version": "2.0.0",
+  "description": "node cli tool to open scheduled websites",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["cron", "node-cron", "time management", "schedule"],
+  "author": "xortaa",
+  "license": "MIT",
   "dependencies": {
     "cli-color": "^2.0.3",
     "dotenv": "^16.0.3",
